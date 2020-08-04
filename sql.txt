@@ -1,0 +1,21 @@
+gem install sqlite3
+http://www.sqlishard.com/
+sql - структурированный язык запросов
+     изначально создавались для бухгалтеров
+     таблица с названием и ячейками
+
+	select * from Cars   - реальный запрос(выберет все ячейки из таблицы с именем Cars)
+	where price > 1000$  -условие(столбец price вернет значения больше 1000)
+	insert into Cars (id, Name, Price) values ("BMW", 10000)
+
+   ;    (end command)
+	.help (show commands)	
+
+\dirname>	sqlite3 test.sqlite   (open db)
+		.tables  (show tables in db)
+		.mode column (inline colunms for good show)
+		.headers on (outline headers for show)        
+	 
+	
+
+
